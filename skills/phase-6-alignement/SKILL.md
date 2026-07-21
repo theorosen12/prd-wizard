@@ -1,21 +1,21 @@
 ---
-name: phase-5-alignement
+name: phase-6-alignement
 description: >
-  Phase 5 (optionnelle, finale) du workflow de discovery produit Mayday. À utiliser
+  Phase 6 (optionnelle, finale) du workflow de discovery produit Mayday. À utiliser
   quand l'utilisateur veut "produire le one-pager d'alignement", "un document pour les
   CSM et les sales", "aligner les équipes CSM / commerciales sur la fonctionnalité",
-  "expliquer la feature aux CSM et au sales", ou après avoir produit `solution.md` en
-  Phase 4. Génère un one-pager simple et extrêmement clair qui justifie la
-  fonctionnalité et l'explique sans entrer dans les détails. Produit `alignement.md`.
+  "expliquer la feature aux CSM et au sales", ou après avoir produit `prd.md` en
+  Phase 5. Génère un one-pager simple et extrêmement clair qui justifie la fonctionnalité
+  et l'explique sans entrer dans les détails. Produit `alignement.md`.
 metadata:
   version: "0.1.0"
-  phase: "5"
+  phase: "6"
 ---
 
-# Phase 5 (optionnelle) — One-pager d'alignement CSM / Sales
+# Phase 6 (optionnelle) — One-pager d'alignement CSM / Sales
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Voir
-`${CLAUDE_PLUGIN_ROOT}/skills/phase-5-alignement/references/onepager-guide.md` pour le
+`${CLAUDE_PLUGIN_ROOT}/skills/phase-6-alignement/references/onepager-guide.md` pour le
 gabarit et les règles de style.
 
 ## But de la phase
@@ -35,17 +35,19 @@ Livrable : `discovery/<slug>/alignement.md`.
 
 ## Pré-requis
 
-Lire `discovery/<slug>/solution.md` (Phase 4), et pour le contexte `brainsta.md`
-(problème) et `context.md` (preuves). Si `solution.md` manque, proposer de lancer la
-Phase 4 d'abord. Ne pas inventer la solution.
+Source principale : `discovery/<slug>/prd.md` (Phase 5), qui contient déjà la vision, les
+bénéfices, les métriques et le périmètre tranchés. À défaut de PRD, se rabattre sur
+`solution.md` (Phase 4) et `brainsta.md` (Phase 2). Ne pas inventer la fonctionnalité.
 
 ## Déroulé
 
-### 1. Extraire l'essentiel des phases précédentes
+### 1. Extraire l'essentiel du PRD
 
-- Le problème client (depuis `brainsta.md`), reformulé en langage client.
-- La solution retenue (depuis `solution.md`), en une description simple.
-- 1 à 3 preuves ou signaux forts (depuis `context.md`) qui légitiment le sujet.
+- Le problème client (vision et problem statement du PRD), reformulé en langage client.
+- Ce qu'apporte la fonctionnalité (features et bénéfices du PRD), en une description
+  simple.
+- 1 à 3 preuves ou signaux forts qui légitiment le sujet.
+- Le périmètre MVP et les non-goals, pour cadrer ce qu'il ne faut pas (encore) promettre.
 
 ### 2. Traduire pour CSM et Sales
 
@@ -70,4 +72,4 @@ Suivre le gabarit du fichier de référence. Tenir sur une page. Écrire dans
 ## Handoff (fin de workflow)
 
 Terminer par : le pitch de la fonctionnalité en une phrase + « One-pager d'alignement
-prêt. C'est la dernière étape du workflow de discovery. »
+prêt. C'est le dernier livrable optionnel du workflow. »

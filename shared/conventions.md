@@ -26,8 +26,8 @@ discovery/<slug-du-projet>/
 ├── brainsta.md         (Phase 2)
 ├── user-stories.md     (Phase 3)
 ├── solution.md         (Phase 4)
-├── alignement.md       (Phase 5, optionnelle)
-└── prd.md              (Phase 6)
+├── prd.md              (Phase 5, finale pour l'équipe de build)
+└── alignement.md       (Phase 6, optionnelle, CSM / Sales)
 ```
 
 - `<slug-du-projet>` : nom court en kebab-case dérivé du problème
@@ -48,12 +48,13 @@ Chaque phase est autonome mais consomme le livrable de la précédente :
 - Phase 4 lit `user-stories.md` (+ `brainsta.md`) → écrit `solution.md`.
 - Phase 5 (optionnelle) lit `solution.md` (+ `brainsta.md`, `context.md`) → écrit
   `alignement.md` (one-pager CSM / Sales).
-- Phase 6 lit `solution.md`, `user-stories.md`, `brainsta.md`, `context.md` → écrit
+- Phase 5 lit `solution.md`, `user-stories.md`, `brainsta.md`, `context.md` → écrit
   `prd.md` (PRD pour l'équipe de build). C'est l'étape finale du workflow.
+- Phase 6 (optionnelle) lit `prd.md` (à défaut `solution.md`, `brainsta.md`) → écrit
+  `alignement.md` (one-pager CSM / Sales).
 
-La Phase 6 (PRD) est l'aboutissement standard du parcours après la Phase 4. La Phase 5
-(one-pager CSM / Sales) est un livrable optionnel, indépendant, orienté CSM / Sales,
-qu'on peut produire avant ou après la Phase 6.
+La Phase 5 (PRD) est l'aboutissement standard du parcours après la Phase 4. La Phase 6
+(one-pager CSM / Sales) est un livrable optionnel, dérivé du PRD, qui vient en dernier.
 
 Au début de chaque phase (sauf 0), vérifier que le livrable amont existe. S'il
 manque, proposer de lancer la phase manquante d'abord. Ne jamais inventer le contenu

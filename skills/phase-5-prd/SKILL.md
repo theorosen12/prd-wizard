@@ -1,22 +1,22 @@
 ---
-name: phase-6-prd
+name: phase-5-prd
 description: >
-  Phase 6 (finale) du workflow de discovery produit Mayday. À utiliser
-  quand l'utilisateur veut "générer le PRD", "écrire le PRD", "rédiger les
+  Phase 5 (finale, pour l'équipe de build) du workflow de discovery produit Mayday. À
+  utiliser quand l'utilisateur veut "générer le PRD", "écrire le PRD", "rédiger les
   spécifications", "un document de requirements pour l'équipe", "créer / mettre à jour /
   valider un PRD", ou après avoir produit `solution.md` en Phase 4. Consolide contexte,
   problème, user stories et solution en un PRD structuré (features, FR testables,
   glossaire, métriques). Produit `prd.md`. Adapté du workflow PRD de BMAD.
 metadata:
   version: "0.1.0"
-  phase: "6"
+  phase: "5"
 ---
 
-# Phase 6 — Génération du PRD
+# Phase 5 — Génération du PRD
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Utiliser
-`${CLAUDE_PLUGIN_ROOT}/skills/phase-6-prd/references/prd-template.md` (structure du PRD)
-et `${CLAUDE_PLUGIN_ROOT}/skills/phase-6-prd/references/prd-checklist.md` (rubrique de
+`${CLAUDE_PLUGIN_ROOT}/skills/phase-5-prd/references/prd-template.md` (structure du PRD)
+et `${CLAUDE_PLUGIN_ROOT}/skills/phase-5-prd/references/prd-checklist.md` (rubrique de
 validation).
 
 ## Posture
@@ -25,22 +25,27 @@ Agir en facilitateur et coach qui aide à produire un PRD de qualité, calibré 
 de rigueur voulu. Ne pas penser à la place de l'utilisateur, sauf s'il choisit le mode
 rapide. Le PRD décrit des capacités (le quoi), pas l'implémentation (le comment
 technique va dans un addendum si besoin). C'est le document de handoff vers l'équipe de
-build ; le workflow s'arrête avant le développement.
+build et l'étape finale du plugin ; le workflow s'arrête avant le développement.
 
 Livrable : `discovery/<slug>/prd.md`.
 
-## Spécificité Mayday : le gros est déjà fait
+## Le PRD est la source de vérité, il consolide sans réécrire
 
-Contrairement à un PRD parti de zéro, la discovery est déjà faite. Charger et réutiliser
-les livrables existants du dossier `discovery/<slug>/` :
+La discovery est déjà faite. Le PRD n'invente rien : il assemble et référence les
+livrables amont, puis comble les manques. Charger depuis `discovery/<slug>/` :
 
 - `context.md` (Phase 1) : discovery statements, personas, signaux analytics.
 - `brainsta.md` (Phase 2) : problem statement, causes racines, hors scope.
-- `user-stories.md` (Phase 3) : user stories priorisées et critères d'acceptation.
+- `user-stories.md` (Phase 3) : user stories de besoin, qui alimentent les user journeys.
 - `solution.md` (Phase 4) : direction de solution retenue, parcours, périmètre, métriques.
 
-Si `solution.md` manque, proposer de lancer la Phase 4 d'abord. La discovery ne se
-refait pas ici : on assemble à partir de ces sources, puis on comble les manques.
+Éviter la redondance : les user journeys du PRD dérivent des user stories de la Phase 3 ;
+les features dérivent de la solution de la Phase 4 ; les métriques de succès sont
+finalisées ici comme référence unique (la Phase 4 les a proposées, le PRD les fige et les
+relie aux FR). Les user stories de la Phase 3 sont des besoins de discovery ; le découpage
+en stories exécutables pour le dev se fait plus tard, à partir de ce PRD, hors plugin.
+
+Si `solution.md` manque, proposer de lancer la Phase 4 d'abord.
 
 ## Intentions
 
@@ -70,8 +75,8 @@ Suivre `references/prd-template.md`. Points clés :
 - Features regroupées ; FR numérotés globalement (FR-1, FR-2...) avec IDs stables.
 - Chaque FR a au moins une conséquence testable. Bannir « gère X correctement »,
   « performant », « user-friendly » : mettre des bornes, pas des adjectifs.
-- Glossaire : chaque nom métier défini une fois, utilisé partout à l'identique (les user
-  stories de la Phase 3 alimentent les user journeys UJ-1..UJ-N ; les FR y renvoient).
+- Glossaire : chaque nom métier défini une fois, utilisé partout à l'identique. Les FR
+  renvoient aux user journeys (UJ-1..UJ-N).
 - Capacités, pas implémentation. Métriques de succès reliées aux FR, avec contre-métriques.
 - Non-goals explicites, périmètre MVP in/out, questions ouvertes, index des hypothèses.
 - Colonne vertébrale essentielle par défaut ; piocher dans le menu adaptatif du template
@@ -97,5 +102,5 @@ passer la validation, trancher les questions ouvertes bloquantes, puis polir. É
 ## Handoff (fin de workflow)
 
 Terminer par : le titre du PRD et le nombre de FR + « PRD prêt pour l'équipe de build.
-C'est la dernière étape du plugin ; la suite (développement) est hors scope. Si ce
-n'est pas déjà fait, la Phase 5 (one-pager CSM / Sales) reste disponible en option. »
+C'est la dernière étape du plugin ; la suite (développement) est hors scope. Option
+finale : la Phase 6 (one-pager CSM / Sales) peut être produite à partir de ce PRD. »

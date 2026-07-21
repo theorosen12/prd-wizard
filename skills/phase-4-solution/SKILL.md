@@ -81,5 +81,5 @@ de design / Figma, hors de ce plugin.
 
 Terminer par : la solution retenue en une phrase + récap du parcours (context.md,
 brainsta.md, user-stories.md, solution.md) + « Solution définie. Prochaine étape :
-Phase 6 (PRD pour l'équipe de build), l'étape finale du workflow. Option en parallèle :
-Phase 5 (one-pager d'alignement CSM / Sales). On enchaîne sur le PRD ? »
+Phase 5 (PRD pour l'équipe de build), l'étape finale du workflow. Un livrable optionnel
+suivra si voulu : Phase 6 (one-pager d'alignement CSM / Sales). On enchaîne sur le PRD ? »

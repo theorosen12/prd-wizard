@@ -34,12 +34,12 @@ lancer directement une phase si tu sais laquelle.
 | 2 | `phase-2-problem` | Brainstorming et choix du problem statement (pas d'UX) | `brainsta.md` |
 | 3 | `phase-3-user-stories` | Décline le problème en user stories priorisées | `user-stories.md` |
 | 4 | `phase-4-solution` | Idéation et définition de la solution (design) | `solution.md` |
-| 5 | `phase-5-alignement` | One-pager d'alignement CSM / Sales (optionnel) | `alignement.md` |
-| 6 | `phase-6-prd` | PRD pour l'équipe de build, adapté de BMAD | `prd.md` |
+| 5 | `phase-5-prd` | PRD pour l'équipe de build, adapté de BMAD | `prd.md` |
+| 6 | `phase-6-alignement` | One-pager d'alignement CSM / Sales (optionnel) | `alignement.md` |
 
-Chaque phase consomme le livrable de la précédente (chaînage type BMAD). La Phase 6 (PRD)
-est l'étape finale du parcours. La Phase 5 (one-pager CSM / Sales) est un livrable
-optionnel indépendant. Les fichiers vivent dans `discovery/<slug-du-projet>/`.
+Chaque phase consomme le livrable de la précédente (chaînage type BMAD). La Phase 5 (PRD)
+est l'étape finale du parcours. La Phase 6 (one-pager CSM / Sales) est un livrable
+optionnel, dérivé du PRD. Les fichiers vivent dans `discovery/<slug-du-projet>/`.
 
 ## Comment l'utiliser
 
@@ -51,8 +51,8 @@ Passer par l'orchestrateur, ou lancer les phases dans l'ordre. Exemples de décl
 - « Définis le problem statement » → Phase 2
 - « Écris les user stories » → Phase 3
 - « Brainstorme la solution » → Phase 4
-- « Produis le one-pager pour les CSM et le sales » → Phase 5 (optionnelle)
-- « Génère le PRD » / « rédige les spécifications pour l'équipe » → Phase 6
+- « Génère le PRD » / « rédige les spécifications pour l'équipe » → Phase 5
+- « Produis le one-pager pour les CSM et le sales » → Phase 6 (optionnelle)
 
 Chaque phase se termine par un « handoff » qui propose de lancer la suivante.
 
@@ -101,6 +101,6 @@ discovery-wizard/
     ├── phase-2-problem/SKILL.md (+ references/problem-guide.md)
     ├── phase-3-user-stories/SKILL.md (+ references/stories-guide.md)
     ├── phase-4-solution/SKILL.md (+ references/solution-guide.md)
-    ├── phase-5-alignement/SKILL.md (+ references/onepager-guide.md)
-    └── phase-6-prd/SKILL.md (+ references/prd-template.md, prd-checklist.md)
+    ├── phase-5-prd/SKILL.md (+ references/prd-template.md, prd-checklist.md)
+    └── phase-6-alignement/SKILL.md (+ references/onepager-guide.md)
 ```

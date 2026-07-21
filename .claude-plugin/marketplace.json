@@ -29,8 +29,8 @@
         "./skills/phase-2-problem",
         "./skills/phase-3-user-stories",
         "./skills/phase-4-solution",
-        "./skills/phase-5-alignement",
-        "./skills/phase-6-prd"
+        "./skills/phase-5-prd",
+        "./skills/phase-6-alignement"
       ]
     }
   ]

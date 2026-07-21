@@ -1,4 +1,4 @@
-# Guide — Phase 5 One-pager d'alignement CSM / Sales
+# Guide — Phase 6 One-pager d'alignement CSM / Sales
 
 ## Règles de style
 

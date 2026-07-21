@@ -31,12 +31,12 @@ lui-même : il oriente vers la phase adaptée et lance la skill de phase corresp
 | 2 | `phase-2-problem` | `brainsta.md` |
 | 3 | `phase-3-user-stories` | `user-stories.md` |
 | 4 | `phase-4-solution` | `solution.md` |
-| 5 (option) | `phase-5-alignement` | `alignement.md` |
-| 6 | `phase-6-prd` | `prd.md` |
+| 5 | `phase-5-prd` | `prd.md` |
+| 6 (option) | `phase-6-alignement` | `alignement.md` |
 
-Chaque phase consomme le livrable de la précédente. La Phase 6 (PRD pour l'équipe de
-build) est l'étape finale standard après la Phase 4. La Phase 5 (one-pager CSM / Sales)
-est un livrable optionnel indépendant.
+Chaque phase consomme le livrable de la précédente. La Phase 5 (PRD pour l'équipe de
+build) est l'étape finale standard après la Phase 4. La Phase 6 (one-pager CSM / Sales)
+est un livrable optionnel, dérivé du PRD, qui vient en dernier.
 
 ## Détecter l'avancement
 
@@ -47,13 +47,12 @@ puis regarder les fichiers présents dans `discovery/<slug>/` :
 - `context.md` présent, pas `brainsta.md` : prochaine étape Phase 2.
 - `brainsta.md` présent, pas `user-stories.md` : prochaine étape Phase 3.
 - `user-stories.md` présent, pas `solution.md` : prochaine étape Phase 4.
-- `solution.md` présent, pas `prd.md` : prochaine étape Phase 6 (PRD).
-- `prd.md` présent : workflow bouclé ; proposer la Phase 5 (one-pager CSM / Sales) si
+- `solution.md` présent, pas `prd.md` : prochaine étape Phase 5 (PRD).
+- `prd.md` présent : workflow bouclé ; proposer la Phase 6 (one-pager CSM / Sales) si
   pas encore produite.
 
-À tout moment, la Phase 5 (one-pager CSM / Sales) peut être produite en parallèle une
-fois `solution.md` disponible. Toujours confirmer l'état déduit avec l'utilisateur avant
-de router, et lui laisser la possibilité de reprendre une phase antérieure.
+Toujours confirmer l'état déduit avec l'utilisateur avant de router, et lui laisser la
+possibilité de reprendre une phase antérieure ou de sauter la Phase 6.
 
 ## Router
 
