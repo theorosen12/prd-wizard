@@ -1,0 +1,28 @@
+{
+  "name": "mayday-product",
+  "owner": {
+    "name": "Théo Rosen",
+    "email": "theo.rosen@getmayday.co"
+  },
+  "homepage": "https://github.com/THEO_GITHUB_USER/discovery-wizard",
+  "repository": "https://github.com/THEO_GITHUB_USER/discovery-wizard",
+  "keywords": ["product", "discovery", "mayday", "problem-statement", "user-stories"],
+  "plugins": [
+    {
+      "name": "discovery-wizard",
+      "source": "./",
+      "description": "Accompagne un PM Mayday de la découverte d'un problème client jusqu'à la définition de la solution, phase par phase (contexte, discovery, problem statement, user stories, solution, alignement CSM/Sales). Inspiré de BMAD, arrêté avant le développement.",
+      "version": "0.1.0",
+      "author": { "name": "Théo Rosen" },
+      "skills": [
+        "./skills/discovery-wizard",
+        "./skills/phase-0-contexte",
+        "./skills/phase-1-discovery",
+        "./skills/phase-2-problem",
+        "./skills/phase-3-user-stories",
+        "./skills/phase-4-solution",
+        "./skills/phase-5-alignement"
+      ]
+    }
+  ]
+}
