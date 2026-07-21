@@ -80,7 +80,6 @@ de design / Figma, hors de ce plugin.
 ## Handoff
 
 Terminer par : la solution retenue en une phrase + récap du parcours (context.md,
-brainsta.md, user-stories.md, solution.md) + « Discovery bouclée côté produit. Deux
-livrables optionnels possibles : Phase 5 (one-pager d'alignement CSM / Sales) et
-Phase 6 (PRD pour l'équipe de build). Sinon, étapes suivantes hors plugin : design
-détaillé et développement. »
+brainsta.md, user-stories.md, solution.md) + « Solution définie. Prochaine étape :
+Phase 6 (PRD pour l'équipe de build), l'étape finale du workflow. Option en parallèle :
+Phase 5 (one-pager d'alignement CSM / Sales). On enchaîne sur le PRD ? »

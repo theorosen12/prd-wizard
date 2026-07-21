@@ -1,7 +1,7 @@
 ---
 name: phase-6-prd
 description: >
-  Phase 6 (optionnelle, finale) du workflow de discovery produit Mayday. À utiliser
+  Phase 6 (finale) du workflow de discovery produit Mayday. À utiliser
   quand l'utilisateur veut "générer le PRD", "écrire le PRD", "rédiger les
   spécifications", "un document de requirements pour l'équipe", "créer / mettre à jour /
   valider un PRD", ou après avoir produit `solution.md` en Phase 4. Consolide contexte,
@@ -12,7 +12,7 @@ metadata:
   phase: "6"
 ---
 
-# Phase 6 (optionnelle) — Génération du PRD
+# Phase 6 — Génération du PRD
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Utiliser
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-6-prd/references/prd-template.md` (structure du PRD)
@@ -97,4 +97,5 @@ passer la validation, trancher les questions ouvertes bloquantes, puis polir. É
 ## Handoff (fin de workflow)
 
 Terminer par : le titre du PRD et le nombre de FR + « PRD prêt pour l'équipe de build.
-C'est la dernière étape planifiée du plugin ; la suite (développement) est hors scope. »
+C'est la dernière étape du plugin ; la suite (développement) est hors scope. Si ce
+n'est pas déjà fait, la Phase 5 (one-pager CSM / Sales) reste disponible en option. »
