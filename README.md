@@ -35,9 +35,11 @@ lancer directement une phase si tu sais laquelle.
 | 3 | `phase-3-user-stories` | Décline le problème en user stories priorisées | `user-stories.md` |
 | 4 | `phase-4-solution` | Idéation et définition de la solution (design) | `solution.md` |
 | 5 | `phase-5-alignement` | One-pager d'alignement CSM / Sales (optionnel) | `alignement.md` |
+| 6 | `phase-6-prd` | PRD pour l'équipe de build, adapté de BMAD (optionnel) | `prd.md` |
 
-Chaque phase consomme le livrable de la précédente (chaînage type BMAD). La Phase 5 est
-optionnelle. Les fichiers vivent dans `discovery/<slug-du-projet>/`.
+Chaque phase consomme le livrable de la précédente (chaînage type BMAD). Les Phases 5
+(CSM / Sales) et 6 (PRD) sont deux livrables terminaux optionnels après la Phase 4. Les
+fichiers vivent dans `discovery/<slug-du-projet>/`.
 
 ## Comment l'utiliser
 
@@ -50,6 +52,7 @@ Passer par l'orchestrateur, ou lancer les phases dans l'ordre. Exemples de décl
 - « Écris les user stories » → Phase 3
 - « Brainstorme la solution » → Phase 4
 - « Produis le one-pager pour les CSM et le sales » → Phase 5 (optionnelle)
+- « Génère le PRD » / « rédige les spécifications pour l'équipe » → Phase 6 (optionnelle)
 
 Chaque phase se termine par un « handoff » qui propose de lancer la suivante.
 
@@ -98,5 +101,6 @@ discovery-wizard/
     ├── phase-2-problem/SKILL.md (+ references/problem-guide.md)
     ├── phase-3-user-stories/SKILL.md (+ references/stories-guide.md)
     ├── phase-4-solution/SKILL.md (+ references/solution-guide.md)
-    └── phase-5-alignement/SKILL.md (+ references/onepager-guide.md)
+    ├── phase-5-alignement/SKILL.md (+ references/onepager-guide.md)
+    └── phase-6-prd/SKILL.md (+ references/prd-template.md, prd-checklist.md)
 ```

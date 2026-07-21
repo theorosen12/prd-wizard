@@ -32,8 +32,11 @@ lui-même : il oriente vers la phase adaptée et lance la skill de phase corresp
 | 3 | `phase-3-user-stories` | `user-stories.md` |
 | 4 | `phase-4-solution` | `solution.md` |
 | 5 (option) | `phase-5-alignement` | `alignement.md` |
+| 6 (option) | `phase-6-prd` | `prd.md` |
 
-Chaque phase consomme le livrable de la précédente. La Phase 5 est optionnelle.
+Chaque phase consomme le livrable de la précédente. Les Phases 5 (one-pager CSM / Sales)
+et 6 (PRD pour l'équipe de build) sont deux livrables terminaux optionnels après la
+Phase 4, indépendants l'un de l'autre.
 
 ## Détecter l'avancement
 
@@ -44,11 +47,12 @@ puis regarder les fichiers présents dans `discovery/<slug>/` :
 - `context.md` présent, pas `brainsta.md` : prochaine étape Phase 2.
 - `brainsta.md` présent, pas `user-stories.md` : prochaine étape Phase 3.
 - `user-stories.md` présent, pas `solution.md` : prochaine étape Phase 4.
-- `solution.md` présent : discovery produit bouclée ; proposer la Phase 5 (one-pager
-  CSM / Sales) si pas encore faite.
+- `solution.md` présent : discovery produit bouclée ; proposer les livrables terminaux
+  optionnels non encore produits, Phase 5 (one-pager CSM / Sales) et Phase 6 (PRD pour
+  l'équipe de build).
 
 Toujours confirmer l'état déduit avec l'utilisateur avant de router, et lui laisser la
-possibilité de reprendre une phase antérieure ou de sauter la Phase 5.
+possibilité de reprendre une phase antérieure ou de sauter les phases optionnelles.
 
 ## Router
 

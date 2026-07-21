@@ -26,7 +26,8 @@ discovery/<slug-du-projet>/
 ├── brainsta.md         (Phase 2)
 ├── user-stories.md     (Phase 3)
 ├── solution.md         (Phase 4)
-└── alignement.md       (Phase 5, optionnelle)
+├── alignement.md       (Phase 5, optionnelle)
+└── prd.md              (Phase 6, optionnelle)
 ```
 
 - `<slug-du-projet>` : nom court en kebab-case dérivé du problème
@@ -47,6 +48,12 @@ Chaque phase est autonome mais consomme le livrable de la précédente :
 - Phase 4 lit `user-stories.md` (+ `brainsta.md`) → écrit `solution.md`.
 - Phase 5 (optionnelle) lit `solution.md` (+ `brainsta.md`, `context.md`) → écrit
   `alignement.md` (one-pager CSM / Sales).
+- Phase 6 (optionnelle) lit `solution.md`, `user-stories.md`, `brainsta.md`,
+  `context.md` → écrit `prd.md` (PRD pour l'équipe de build).
+
+Les Phases 5 et 6 sont deux livrables terminaux optionnels après la Phase 4 :
+la Phase 5 est orientée CSM / Sales, la Phase 6 orientée équipe de build. Elles sont
+indépendantes l'une de l'autre.
 
 Au début de chaque phase (sauf 0), vérifier que le livrable amont existe. S'il
 manque, proposer de lancer la phase manquante d'abord. Ne jamais inventer le contenu
