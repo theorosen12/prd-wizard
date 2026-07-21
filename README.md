@@ -1,4 +1,4 @@
-# Discovery Wizard
+# PRD Wizard
 
 Plugin produit qui accompagne un PM de Mayday depuis la découverte d'un problème client
 jusqu'à la définition d'une solution, phase par phase. Inspiré des frameworks type BMAD,
@@ -11,8 +11,8 @@ Ce dépôt est à la fois le plugin et sa marketplace. Pour l'installer, un coll
 la marketplace une fois puis installe le plugin, depuis Cowork ou Claude Code :
 
 ```
-/plugin marketplace add THEO_GITHUB_USER/discovery-wizard
-/plugin install discovery-wizard@mayday-product
+/plugin marketplace add THEO_GITHUB_USER/prd-wizard
+/plugin install prd-wizard@mayday-product
 ```
 
 Remplacer `THEO_GITHUB_USER` par le compte (ou l'organisation) GitHub qui héberge le
@@ -88,7 +88,7 @@ recommandé, aléatoire, progressif) et une étape de capture / tri. Détail dan
 ## Structure
 
 ```
-discovery-wizard/
+prd-wizard/
 ├── .claude-plugin/plugin.json
 ├── README.md
 ├── CONNECTORS.md

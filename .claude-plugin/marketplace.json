@@ -4,8 +4,8 @@
     "name": "Théo Rosen",
     "email": "theo.rosen@getmayday.co"
   },
-  "homepage": "https://github.com/THEO_GITHUB_USER/discovery-wizard",
-  "repository": "https://github.com/THEO_GITHUB_USER/discovery-wizard",
+  "homepage": "https://github.com/THEO_GITHUB_USER/prd-wizard",
+  "repository": "https://github.com/THEO_GITHUB_USER/prd-wizard",
   "keywords": [
     "product",
     "discovery",
@@ -15,7 +15,7 @@
   ],
   "plugins": [
     {
-      "name": "discovery-wizard",
+      "name": "prd-wizard",
       "source": "./",
       "description": "Accompagne un PM Mayday de la découverte d'un problème client jusqu'à la définition de la solution, phase par phase (contexte, discovery, problem statement, user stories, solution, alignement CSM/Sales). Inspiré de BMAD, arrêté avant le développement.",
       "version": "0.1.0",
