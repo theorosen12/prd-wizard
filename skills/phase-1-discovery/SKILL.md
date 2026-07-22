@@ -12,7 +12,7 @@ metadata:
   phase: "1"
 ---
 
-# Phase 1 — Discovery statements
+# Phase 1 - Discovery statements
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Voir aussi
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-1-discovery/references/discovery-guide.md`

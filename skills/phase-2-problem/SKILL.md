@@ -11,7 +11,7 @@ metadata:
   phase: "2"
 ---
 
-# Phase 2 — Brainstorming Problem statement (pas d'UX)
+# Phase 2 - Brainstorming Problem statement (pas d'UX)
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Pour la facilitation du
 brainstorming (posture, choix de technique, catalogue, capture), suivre

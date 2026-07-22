@@ -12,7 +12,7 @@ metadata:
   phase: "0"
 ---
 
-# Phase 0 — Récupération du contexte
+# Phase 0 - Récupération du contexte
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md` et s'y conformer
 (langue française, pas de tiret cadratin, dossier de travail, chaînage des phases).

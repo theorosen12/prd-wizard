@@ -1,4 +1,4 @@
-# Méthode de brainstorming (adaptée de BMAD — Creative Intelligence Suite)
+# Méthode de brainstorming (adaptée de BMAD - Creative Intelligence Suite)
 
 Référence partagée par les phases de brainstorming (Phase 2 problème, Phase 4 solution).
 Adaptée du module BMAD "Creative Intelligence Suite" (coach de brainstorming "Carson").

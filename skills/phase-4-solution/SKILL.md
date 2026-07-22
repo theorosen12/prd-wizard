@@ -12,7 +12,7 @@ metadata:
   phase: "4"
 ---
 
-# Phase 4 — Brainsto solution (design)
+# Phase 4 - Brainsto solution (design)
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Pour la facilitation du
 brainstorming (posture, choix de technique, catalogue, capture), suivre

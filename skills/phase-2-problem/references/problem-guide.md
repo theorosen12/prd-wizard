@@ -1,4 +1,4 @@
-# Guide — Phase 2 Problem statement
+# Guide - Phase 2 Problem statement
 
 ## Rappels de posture
 
@@ -29,7 +29,7 @@
 ## Gabarit de `brainsta.md`
 
 ```markdown
-# Problem statement — <Titre>
+# Problem statement - <Titre>
 
 _Phase 2 (Brainstorming problème). Généré le <date>. Slug : <slug>._
 _Source : context.md (Phase 1)._

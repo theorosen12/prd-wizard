@@ -53,5 +53,5 @@ les enjeux et le type de produit.
 ## Restitution
 
 Verdict global en 2-3 phrases, puis par dimension un verdict + findings au format :
-`- [critique|haut|moyen|bas] Titre (§ localisation) — note. Correctif : ...`
+`- [critique|haut|moyen|bas] Titre (§ localisation) - note. Correctif : ...`
 Écrire des findings seulement là où ils ajoutent de l'information.

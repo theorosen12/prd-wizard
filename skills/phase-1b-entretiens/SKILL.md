@@ -13,7 +13,7 @@ metadata:
   phase: "1b"
 ---
 
-# Phase 1b (conditionnelle) — Entretiens de discovery
+# Phase 1b (conditionnelle) - Entretiens de discovery
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`.
 

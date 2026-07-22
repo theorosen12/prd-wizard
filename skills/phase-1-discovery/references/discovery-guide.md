@@ -1,4 +1,4 @@
-# Guide d'analyse — Phase 1 Discovery
+# Guide d'analyse - Phase 1 Discovery
 
 ## Comment interroger la base Notion des entretiens
 
@@ -34,7 +34,7 @@
 ## Gabarit de `context.md`
 
 ```markdown
-# Context — <Titre du problème>
+# Context - <Titre du problème>
 
 _Phase 1 (Discovery statements). Généré le <date>. Slug : <slug>._
 
@@ -54,7 +54,7 @@ _Phase 1 (Discovery statements). Généré le <date>. Slug : <slug>._
 ## Discovery statements
 Triés du plus fort au plus faible (fréquence x intensité).
 
-1. **[Titre court]** — [Persona] rencontre [situation] quand [contexte], ce qui
+1. **[Titre court]** - [Persona] rencontre [situation] quand [contexte], ce qui
    provoque [conséquence].
    - Fréquence : X / N entretiens.
    - Verbatim : « ... » (source, lien).

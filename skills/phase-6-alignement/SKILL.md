@@ -12,7 +12,7 @@ metadata:
   phase: "6"
 ---
 
-# Phase 6 (optionnelle) — One-pager d'alignement CSM / Sales
+# Phase 6 (optionnelle) - One-pager d'alignement CSM / Sales
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Voir
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-6-alignement/references/onepager-guide.md` pour le

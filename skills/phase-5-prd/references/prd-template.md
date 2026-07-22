@@ -71,9 +71,9 @@ brainsta.md et solution.md.]
 ## 7. Métriques de succès
 *Chaque métrique renvoie aux FR qu'elle valide. Contre-métriques pour éviter d'optimiser
 la mauvaise chose.* Reprendre les métriques de solution.md.
-**Primaires** : SM-1 — définition, cible. Valide FR-X.
-**Secondaires** : SM-2 — ...
-**Contre-métriques (à ne pas optimiser)** : SM-C1 — pourquoi. Contrebalance SM-1.
+**Primaires** : SM-1 - définition, cible. Valide FR-X.
+**Secondaires** : SM-2 - ...
+**Contre-métriques (à ne pas optimiser)** : SM-C1 - pourquoi. Contrebalance SM-1.
 
 ## 8. Questions ouvertes
 [Numérotées. Inconnues qui deviennent des tickets ou de la recherche, pas des trous

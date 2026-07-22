@@ -1,4 +1,4 @@
-# Guide — Phase 6 One-pager d'alignement CSM / Sales
+# Guide - Phase 6 One-pager d'alignement CSM / Sales
 
 ## Règles de style
 
@@ -18,7 +18,7 @@
 ## Gabarit de `alignement.md`
 
 ```markdown
-# <Nom de la fonctionnalité> — Note d'alignement CSM & Sales
+# <Nom de la fonctionnalité> - Note d'alignement CSM & Sales
 
 _Une page. Public : CSM et Sales. Généré le <date>._
 

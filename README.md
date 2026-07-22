@@ -20,7 +20,7 @@ dépôt. Les mises à jour poussées ici se propagent via `/plugin marketplace u
 
 ## Point d'entrée
 
-La skill `discovery-wizard` est l'orchestrateur : elle donne la carte des phases, déduit
+La skill `prd-wizard` est l'orchestrateur : elle donne la carte des phases, déduit
 où tu en es à partir des livrables déjà produits, et route vers la bonne phase. Idéale
 pour démarrer ou reprendre une discovery en cours (« où j'en suis ? »). Tu peux aussi
 lancer directement une phase si tu sais laquelle.
@@ -48,7 +48,7 @@ optionnel, dérivé du PRD. Les fichiers vivent dans `discovery/<slug-du-projet>
 
 Passer par l'orchestrateur, ou lancer les phases dans l'ordre. Exemples de déclencheurs :
 
-- « Lance le discovery wizard » / « où j'en suis dans ma discovery ? » → orchestrateur
+- « Lance le prd wizard » / « où j'en suis dans ma discovery ? » → orchestrateur
 - « Je démarre une discovery sur la recherche de connaissance des agents » → Phase 0
 - « Prépare des entretiens pour tester l'hypothèse » / « écris un guide d'interview » → Phase 1b
 - « Lance la phase 1 » / « analyse les entretiens » → Phase 1
@@ -99,7 +99,7 @@ prd-wizard/
 ├── shared/conventions.md
 ├── shared/brainstorming-bmad.md
 └── skills/
-    ├── discovery-wizard/SKILL.md (orchestrateur)
+    ├── prd-wizard/SKILL.md (orchestrateur)
     ├── phase-0-contexte/SKILL.md
     ├── phase-1b-entretiens/SKILL.md
     ├── phase-1-discovery/SKILL.md (+ references/discovery-guide.md)

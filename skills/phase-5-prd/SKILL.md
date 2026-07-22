@@ -12,7 +12,7 @@ metadata:
   phase: "5"
 ---
 
-# Phase 5 — Génération du PRD
+# Phase 5 - Génération du PRD
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Utiliser
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-5-prd/references/prd-template.md` (structure du PRD)

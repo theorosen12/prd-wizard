@@ -12,7 +12,7 @@ metadata:
   phase: "3"
 ---
 
-# Phase 3 — User stories
+# Phase 3 - User stories
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`. Voir
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-3-user-stories/references/stories-guide.md` pour

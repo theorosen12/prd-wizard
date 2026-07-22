@@ -1,4 +1,4 @@
-# Guide — Phase 4 Brainsto solution
+# Guide - Phase 4 Brainsto solution
 
 ## Posture
 
@@ -31,7 +31,7 @@ Recommander une direction et garder une alternative visible.
 ## Gabarit de `solution.md`
 
 ```markdown
-# Solution — <Titre du problème>
+# Solution - <Titre du problème>
 
 _Phase 4 (Brainsto solution). Généré le <date>. Slug : <slug>._
 _Sources : user-stories.md, brainsta.md, context.md._
@@ -41,11 +41,11 @@ _Sources : user-stories.md, brainsta.md, context.md._
 - Story cœur : une phrase (Phase 3).
 
 ## Directions explorées
-### Direction A — <nom>
+### Direction A - <nom>
 Idée, comment elle adresse la story cœur, impact / effort / risque.
-### Direction B — <nom>
+### Direction B - <nom>
 ...
-### Direction C — <nom>
+### Direction C - <nom>
 ...
 
 ## Direction recommandée

@@ -1,4 +1,4 @@
-# Conventions partagées — Mayday Product Discovery
+# Conventions partagées - Mayday Product Discovery
 
 Ce fichier est référencé par toutes les phases. Le respecter à chaque phase.
 

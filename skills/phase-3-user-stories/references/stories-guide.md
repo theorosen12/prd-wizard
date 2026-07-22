@@ -1,4 +1,4 @@
-# Guide — Phase 3 User stories
+# Guide - Phase 3 User stories
 
 ## Format d'une user story
 
@@ -42,7 +42,7 @@ statement de la Phase 2.
 ## Gabarit de `user-stories.md`
 
 ```markdown
-# User stories — <Titre du problème>
+# User stories - <Titre du problème>
 
 _Phase 3. Généré le <date>. Slug : <slug>._
 _Sources : brainsta.md (Phase 2), context.md (Phase 1)._

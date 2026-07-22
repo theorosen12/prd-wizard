@@ -1,6 +1,6 @@
 {
   "name": "prd-wizard",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "Accompagne un Product Manager Mayday de la découverte d'un problème client jusqu'à la définition de la solution, phase par phase (contexte, discovery, problem statement, user stories, solution). Inspiré des frameworks type BMAD, arrêté avant la phase de développement.",
   "author": {
     "name": "Théo Rosen",
