@@ -32,6 +32,11 @@ Livrable : `discovery/<slug>/context.md`.
 Vérifier que la Phase 0 a été faite (slug + dossier + cadrage). Sinon, proposer de la
 lancer d'abord.
 
+Vérifier qu'il y a assez de matière à analyser (entretiens, notes, analytics). S'il n'y
+a pas ou trop peu d'entretiens exploitables et que l'hypothèse de problème n'est pas
+validée, proposer de passer d'abord par la Phase 1b (préparer et mener des entretiens de
+discovery), puis revenir ici pour l'analyse.
+
 ## Déroulé
 
 ### 1. Collecter la matière

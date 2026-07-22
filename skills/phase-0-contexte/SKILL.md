@@ -67,8 +67,14 @@ Terminer par une synthèse orale structurée :
 2. **Persona(s) concerné(s)**.
 3. **Ce qu'on sait déjà** : sources de contexte identifiées (nb d'entretiens Notion
    trouvés, notes, docs).
-4. **Zones d'ombre** : ce qu'il faudra creuser en Phase 1.
-5. **Handoff** : « Contexte chargé. Prêt à lancer la Phase 1 (Discovery statements) qui
-   analysera les entretiens et l'analytics pour produire `context.md`. On y va ? »
+4. **Zones d'ombre** : ce qu'il faudra creuser.
+5. **Suffisance de la matière** : évaluer si l'on a assez d'insights pour tester
+   l'hypothèse de problème. Si l'hypothèse n'est pas validée et qu'il manque de matière
+   (peu ou pas d'entretiens exploitables), recommander la Phase 1b (préparer des
+   entretiens de discovery) avant la Phase 1.
+6. **Handoff** : selon le point 5, proposer soit « Il manque de matière terrain pour
+   valider l'hypothèse. On passe par la Phase 1b pour préparer des entretiens ? », soit
+   « Contexte chargé et assez de matière. Prêt à lancer la Phase 1 (Discovery statements)
+   pour produire `context.md`. On y va ? »
 
 Ne jamais écrire de fichier dans cette phase.

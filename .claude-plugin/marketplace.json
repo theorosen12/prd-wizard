@@ -14,8 +14,9 @@
         "name": "Théo Rosen"
       },
       "skills": [
-        "./skills/prd-wizard",
+        "./skills/discovery-wizard",
         "./skills/phase-0-contexte",
+        "./skills/phase-1b-entretiens",
         "./skills/phase-1-discovery",
         "./skills/phase-2-problem",
         "./skills/phase-3-user-stories",

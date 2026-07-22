@@ -20,7 +20,7 @@ dépôt. Les mises à jour poussées ici se propagent via `/plugin marketplace u
 
 ## Point d'entrée
 
-La skill `prd-wizard` est l'orchestrateur : elle donne la carte des phases, déduit
+La skill `discovery-wizard` est l'orchestrateur : elle donne la carte des phases, déduit
 où tu en es à partir des livrables déjà produits, et route vers la bonne phase. Idéale
 pour démarrer ou reprendre une discovery en cours (« où j'en suis ? »). Tu peux aussi
 lancer directement une phase si tu sais laquelle.
@@ -30,6 +30,7 @@ lancer directement une phase si tu sais laquelle.
 | Phase | Skill | Ce qu'elle fait | Livrable |
 |---|---|---|---|
 | 0 | `phase-0-contexte` | Récupère et cadre le contexte du problème | aucun (contexte en mémoire) |
+| 1b | `phase-1b-entretiens` | Prépare un kit d'entretien pour tester l'hypothèse (conditionnel) | `guide-entretiens.md` |
 | 1 | `phase-1-discovery` | Analyse entretiens + analytics, sort les discovery statements | `context.md` |
 | 2 | `phase-2-problem` | Brainstorming et choix du problem statement (pas d'UX) | `brainsta.md` |
 | 3 | `phase-3-user-stories` | Décline le problème en user stories priorisées | `user-stories.md` |
@@ -37,8 +38,10 @@ lancer directement une phase si tu sais laquelle.
 | 5 | `phase-5-prd` | PRD pour l'équipe de build, adapté de BMAD | `prd.md` |
 | 6 | `phase-6-alignement` | One-pager d'alignement CSM / Sales (optionnel) | `alignement.md` |
 
-Chaque phase consomme le livrable de la précédente (chaînage type BMAD). La Phase 5 (PRD)
-est l'étape finale du parcours. La Phase 6 (one-pager CSM / Sales) est un livrable
+Chaque phase consomme le livrable de la précédente (chaînage type BMAD). La Phase 1b
+(entretiens de discovery) est une boucle conditionnelle avant la Phase 1, quand
+l'hypothèse de problème n'est pas validée et qu'il manque de matière terrain. La Phase 5
+(PRD) est l'étape finale du parcours. La Phase 6 (one-pager CSM / Sales) est un livrable
 optionnel, dérivé du PRD. Les fichiers vivent dans `discovery/<slug-du-projet>/`.
 
 ## Comment l'utiliser
@@ -47,6 +50,7 @@ Passer par l'orchestrateur, ou lancer les phases dans l'ordre. Exemples de décl
 
 - « Lance le discovery wizard » / « où j'en suis dans ma discovery ? » → orchestrateur
 - « Je démarre une discovery sur la recherche de connaissance des agents » → Phase 0
+- « Prépare des entretiens pour tester l'hypothèse » / « écris un guide d'interview » → Phase 1b
 - « Lance la phase 1 » / « analyse les entretiens » → Phase 1
 - « Définis le problem statement » → Phase 2
 - « Écris les user stories » → Phase 3
@@ -95,8 +99,9 @@ prd-wizard/
 ├── shared/conventions.md
 ├── shared/brainstorming-bmad.md
 └── skills/
-    ├── prd-wizard/SKILL.md (orchestrateur)
+    ├── discovery-wizard/SKILL.md (orchestrateur)
     ├── phase-0-contexte/SKILL.md
+    ├── phase-1b-entretiens/SKILL.md
     ├── phase-1-discovery/SKILL.md (+ references/discovery-guide.md)
     ├── phase-2-problem/SKILL.md (+ references/problem-guide.md)
     ├── phase-3-user-stories/SKILL.md (+ references/stories-guide.md)

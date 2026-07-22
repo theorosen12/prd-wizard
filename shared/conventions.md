@@ -22,6 +22,7 @@ Toute la discovery d'un problème vit dans un dossier dédié :
 
 ```
 discovery/<slug-du-projet>/
+├── guide-entretiens.md (Phase 1b, conditionnelle)
 ├── context.md          (Phase 1)
 ├── brainsta.md         (Phase 2)
 ├── user-stories.md     (Phase 3)
@@ -42,18 +43,21 @@ discovery/<slug-du-projet>/
 Chaque phase est autonome mais consomme le livrable de la précédente :
 
 - Phase 0 → contexte en tête (pas d'output).
-- Phase 1 lit le contexte de Phase 0 → écrit `context.md`.
+- Phase 1b (conditionnelle) : si l'hypothèse de problème n'est pas validée et qu'il
+  manque de matière, écrit `guide-entretiens.md` (kit d'entretien). Les entretiens menés
+  reviennent alimenter la Phase 1.
+- Phase 1 lit le contexte de Phase 0 (+ les entretiens menés via Phase 1b) → écrit
+  `context.md`.
 - Phase 2 lit `context.md` → écrit `brainsta.md`.
 - Phase 3 lit `brainsta.md` (+ `context.md`) → écrit `user-stories.md`.
 - Phase 4 lit `user-stories.md` (+ `brainsta.md`) → écrit `solution.md`.
-- Phase 5 (optionnelle) lit `solution.md` (+ `brainsta.md`, `context.md`) → écrit
-  `alignement.md` (one-pager CSM / Sales).
 - Phase 5 lit `solution.md`, `user-stories.md`, `brainsta.md`, `context.md` → écrit
   `prd.md` (PRD pour l'équipe de build). C'est l'étape finale du workflow.
 - Phase 6 (optionnelle) lit `prd.md` (à défaut `solution.md`, `brainsta.md`) → écrit
   `alignement.md` (one-pager CSM / Sales).
 
-La Phase 5 (PRD) est l'aboutissement standard du parcours après la Phase 4. La Phase 6
+La Phase 1b est une boucle conditionnelle de collecte terrain avant la Phase 1. La
+Phase 5 (PRD) est l'aboutissement standard du parcours après la Phase 4. La Phase 6
 (one-pager CSM / Sales) est un livrable optionnel, dérivé du PRD, qui vient en dernier.
 
 Au début de chaque phase (sauf 0), vérifier que le livrable amont existe. S'il
