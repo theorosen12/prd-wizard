@@ -9,12 +9,12 @@
       "name": "prd-wizard",
       "source": "./",
       "description": "Accompagne un PM Mayday de la découverte d'un problème client jusqu'à la définition de la solution, phase par phase (contexte, discovery, problem statement, user stories, solution, alignement CSM/Sales). Inspiré de BMAD, arrêté avant le développement.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Théo Rosen"
       },
       "skills": [
-        "./skills/discovery-wizard",
+        "./skills/prd-wizard",
         "./skills/phase-0-contexte",
         "./skills/phase-1-discovery",
         "./skills/phase-2-problem",

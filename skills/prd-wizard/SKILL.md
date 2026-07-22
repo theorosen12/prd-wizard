@@ -1,5 +1,5 @@
 ---
-name: discovery-wizard
+name: prd-wizard
 description: >
   Orchestrateur du workflow de discovery produit Mayday. À utiliser quand l'utilisateur
   veut "démarrer une discovery", "lancer le discovery wizard", "où j'en suis dans ma
@@ -8,11 +8,11 @@ description: >
   détecte l'avancement à partir des livrables déjà produits, et route vers la bonne
   phase.
 metadata:
-  version: "0.1.0"
+  version: "0.3.0"
   role: "orchestrateur"
 ---
 
-# Discovery Wizard — Orchestrateur
+# PRD Wizard — Orchestrateur
 
 Lire `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md` (langue française, pas de tiret
 cadratin, dossier de travail, chaînage des phases).
