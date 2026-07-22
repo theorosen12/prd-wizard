@@ -9,7 +9,7 @@
       "name": "prd-wizard",
       "source": "./",
       "description": "Accompagne un PM Mayday de la découverte d'un problème client jusqu'à la définition de la solution, phase par phase (contexte, discovery, problem statement, user stories, solution, alignement CSM/Sales). Inspiré de BMAD, arrêté avant le développement.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "Théo Rosen"
       },

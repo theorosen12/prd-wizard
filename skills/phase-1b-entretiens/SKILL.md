@@ -17,6 +17,8 @@ metadata:
 
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md`.
 
+> **Interaction (voir conventions).** Pose une question a la fois, puis ARRETE-TOI et attends la reponse de l'utilisateur. Ne reponds jamais a tes propres questions, ne suppose pas ses reponses, n'invente aucun fait sur ses clients ou son contexte. Exception : seulement s'il demande explicitement un mode rapide / autonome.
+
 ## Quand cette phase sert
 
 Quand on arrive avec une idée floue du problème et pas assez d'insights utilisateurs /

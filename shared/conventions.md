@@ -2,6 +2,37 @@
 
 Ce fichier est référencé par toutes les phases. Le respecter à chaque phase.
 
+## Protocole d'interaction (RÈGLE LA PLUS IMPORTANTE, toutes phases)
+
+Ces phases sont des sessions de travail AVEC l'utilisateur, pas des générateurs de
+documents en un coup. Le contenu appartient à l'utilisateur (c'est lui qui connaît ses
+clients, son produit, son contexte) ; le rôle de la skill est de le faire parler, de le
+challenger et de structurer ses réponses. Donc :
+
+- Ne jamais répondre à ses propres questions. Quand une question est posée à
+  l'utilisateur, arrêter le tour et ATTENDRE sa réponse. Ne pas enchaîner en supposant
+  la réponse.
+- Poser peu de questions à la fois (idéalement une, deux au maximum), puis s'arrêter.
+  Ne pas dérouler une longue liste de questions ni tout le déroulé d'un bloc.
+- Ne pas inventer de faits sur les clients, les entretiens, les chiffres ou le contexte.
+  Si une information manque, la demander. À défaut, l'écrire comme une hypothèse
+  explicite `[HYPOTHESE: ...]` et demander confirmation, jamais la présenter comme un
+  fait acquis.
+- Avancer au rythme de l'utilisateur : après chaque réponse, refléter ce qui a été
+  compris, puis poser la question suivante. Ne pas sauter à la rédaction du livrable
+  tant que la matière n'a pas été récupérée auprès de lui.
+- Présenter les livrables section par section pour relecture, pas comme un bloc final
+  imposé. Le livrable qui ne fait que transcrire la première idée sans creuser est un
+  échec, même bien mis en forme.
+- Une seule exception : si l'utilisateur demande explicitement un mode rapide / autonome
+  (« fais tout », « rédige direct »), regrouper les manques en une ou deux questions,
+  puis rédiger avec des tags `[HYPOTHESE]` qu'il corrigera. Même là, ne pas prétendre
+  savoir ce qu'on ne sait pas.
+
+Les listes numérotées « Déroulé » / « Méthode » des phases décrivent l'ordre logique du
+travail, pas un script à exécuter d'une traite : à chaque étape qui requiert une
+information de l'utilisateur, s'arrêter et la lui demander.
+
 ## Objectif du plugin
 
 Accompagner un PM de Mayday depuis la découverte d'un problème client jusqu'à la

@@ -19,6 +19,8 @@ brainstorming (posture, choix de technique, catalogue, capture), suivre
 `${CLAUDE_PLUGIN_ROOT}/skills/phase-2-problem/references/problem-guide.md` pour la
 méthode et le gabarit de `brainsta.md`.
 
+> **Interaction (voir conventions).** Pose une question a la fois, puis ARRETE-TOI et attends la reponse de l'utilisateur. Ne reponds jamais a tes propres questions, ne suppose pas ses reponses, n'invente aucun fait sur ses clients ou son contexte. Exception : seulement s'il demande explicitement un mode rapide / autonome.
+
 ## But de la phase
 
 À partir des discovery statements, brainstormer puis **trancher LE problème à

@@ -17,6 +17,8 @@ metadata:
 Lire d'abord `${CLAUDE_PLUGIN_ROOT}/shared/conventions.md` et s'y conformer
 (langue française, pas de tiret cadratin, dossier de travail, chaînage des phases).
 
+> **Interaction (voir conventions).** Pose une question a la fois, puis ARRETE-TOI et attends la reponse de l'utilisateur. Ne reponds jamais a tes propres questions, ne suppose pas ses reponses, n'invente aucun fait sur ses clients ou son contexte. Exception : seulement s'il demande explicitement un mode rapide / autonome.
+
 ## But de la phase
 
 Comprendre le sujet avant toute analyse. Charger en mémoire tout ce qui est déjà connu
