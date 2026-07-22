@@ -26,6 +26,7 @@ discovery/<slug-du-projet>/
 ├── context.md          (Phase 1)
 ├── brainsta.md         (Phase 2)
 ├── user-stories.md     (Phase 3)
+├── vision.md           (Phase 3b, vision produit)
 ├── solution.md         (Phase 4)
 ├── prd.md              (Phase 5, finale pour l'équipe de build)
 └── alignement.md       (Phase 6, optionnelle, CSM / Sales)
@@ -50,9 +51,11 @@ Chaque phase est autonome mais consomme le livrable de la précédente :
   `context.md`.
 - Phase 2 lit `context.md` → écrit `brainsta.md`.
 - Phase 3 lit `brainsta.md` (+ `context.md`) → écrit `user-stories.md`.
-- Phase 4 lit `user-stories.md` (+ `brainsta.md`) → écrit `solution.md`.
-- Phase 5 lit `solution.md`, `user-stories.md`, `brainsta.md`, `context.md` → écrit
-  `prd.md` (PRD pour l'équipe de build). C'est l'étape finale du workflow.
+- Phase 3b lit `brainsta.md`, `user-stories.md` (+ `context.md`) → écrit `vision.md`
+  (vision produit / north star), qui cadre la solution.
+- Phase 4 lit `vision.md`, `user-stories.md` (+ `brainsta.md`) → écrit `solution.md`.
+- Phase 5 lit `solution.md`, `vision.md`, `user-stories.md`, `brainsta.md`, `context.md`
+  → écrit `prd.md` (PRD pour l'équipe de build). C'est l'étape finale du workflow.
 - Phase 6 (optionnelle) lit `prd.md` (à défaut `solution.md`, `brainsta.md`) → écrit
   `alignement.md` (one-pager CSM / Sales).
 

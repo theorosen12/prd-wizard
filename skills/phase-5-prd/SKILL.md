@@ -35,6 +35,8 @@ La discovery est déjà faite. Le PRD n'invente rien : il assemble et référenc
 livrables amont, puis comble les manques. Charger depuis `discovery/<slug>/` :
 
 - `context.md` (Phase 1) : discovery statements, personas, signaux analytics.
+- `vision.md` (Phase 3b) : north star et outcomes visés, qui nourrissent la section
+  Vision du PRD.
 - `brainsta.md` (Phase 2) : problem statement, causes racines, hors scope.
 - `user-stories.md` (Phase 3) : user stories de besoin, qui alimentent les user journeys.
 - `solution.md` (Phase 4) : direction de solution retenue, parcours, périmètre, métriques.

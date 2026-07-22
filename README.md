@@ -34,6 +34,7 @@ lancer directement une phase si tu sais laquelle.
 | 1 | `phase-1-discovery` | Analyse entretiens + analytics, sort les discovery statements | `context.md` |
 | 2 | `phase-2-problem` | Brainstorming et choix du problem statement (pas d'UX) | `brainsta.md` |
 | 3 | `phase-3-user-stories` | Décline le problème en user stories priorisées | `user-stories.md` |
+| 3b | `phase-3b-vision` | Pose la vision produit / north star (avant la solution) | `vision.md` |
 | 4 | `phase-4-solution` | Idéation et définition de la solution (design) | `solution.md` |
 | 5 | `phase-5-prd` | PRD pour l'équipe de build, adapté de BMAD | `prd.md` |
 | 6 | `phase-6-alignement` | One-pager d'alignement CSM / Sales (optionnel) | `alignement.md` |
@@ -54,6 +55,7 @@ Passer par l'orchestrateur, ou lancer les phases dans l'ordre. Exemples de décl
 - « Lance la phase 1 » / « analyse les entretiens » → Phase 1
 - « Définis le problem statement » → Phase 2
 - « Écris les user stories » → Phase 3
+- « Écris la vision produit » / « pose le north star » → Phase 3b
 - « Brainstorme la solution » → Phase 4
 - « Génère le PRD » / « rédige les spécifications pour l'équipe » → Phase 5
 - « Produis le one-pager pour les CSM et le sales » → Phase 6 (optionnelle)
@@ -105,6 +107,7 @@ prd-wizard/
     ├── phase-1-discovery/SKILL.md (+ references/discovery-guide.md)
     ├── phase-2-problem/SKILL.md (+ references/problem-guide.md)
     ├── phase-3-user-stories/SKILL.md (+ references/stories-guide.md)
+    ├── phase-3b-vision/SKILL.md (+ references/vision-template.md)
     ├── phase-4-solution/SKILL.md (+ references/solution-guide.md)
     ├── phase-5-prd/SKILL.md (+ references/prd-template.md, prd-checklist.md)
     └── phase-6-alignement/SKILL.md (+ references/onepager-guide.md)

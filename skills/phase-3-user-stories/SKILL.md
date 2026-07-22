@@ -71,5 +71,5 @@ proposer aussi la page Notion.
 ## Handoff
 
 Terminer par : le nombre de stories et la story cœur + « User stories prêtes. Prochaine
-étape : Phase 4 (Brainsto solution), où on ouvre enfin le "comment" et le design. On y
+étape : Phase 3b (Vision produit) pour poser le north star avant d'idéer la solution. On y
 va ? »

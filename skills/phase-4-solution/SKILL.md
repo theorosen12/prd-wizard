@@ -32,8 +32,10 @@ Livrable : `discovery/<slug>/solution.md`.
 
 ## Pré-requis
 
-Lire `discovery/<slug>/user-stories.md` (Phase 3), et pour le contexte `brainsta.md` et
-`context.md`. Si `user-stories.md` manque, proposer de lancer la Phase 3 d'abord.
+Lire `discovery/<slug>/vision.md` (Phase 3b, north star qui cadre la solution) et
+`user-stories.md` (Phase 3), et pour le contexte `brainsta.md` et `context.md`. Si
+`vision.md` manque, proposer de lancer la Phase 3b d'abord ; si `user-stories.md`
+manque, la Phase 3. La solution retenue doit servir la vision.
 
 ## Déroulé
 

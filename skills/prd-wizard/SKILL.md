@@ -31,6 +31,7 @@ lui-même : il oriente vers la phase adaptée et lance la skill de phase corresp
 | 1 | `phase-1-discovery` | `context.md` |
 | 2 | `phase-2-problem` | `brainsta.md` |
 | 3 | `phase-3-user-stories` | `user-stories.md` |
+| 3b | `phase-3b-vision` | `vision.md` |
 | 4 | `phase-4-solution` | `solution.md` |
 | 5 | `phase-5-prd` | `prd.md` |
 | 6 (option) | `phase-6-alignement` | `alignement.md` |
@@ -53,7 +54,8 @@ puis regarder les fichiers présents dans `discovery/<slug>/` :
   menés, lancer la Phase 1 pour analyser.
 - `context.md` présent, pas `brainsta.md` : prochaine étape Phase 2.
 - `brainsta.md` présent, pas `user-stories.md` : prochaine étape Phase 3.
-- `user-stories.md` présent, pas `solution.md` : prochaine étape Phase 4.
+- `user-stories.md` présent, pas `vision.md` : prochaine étape Phase 3b (Vision).
+- `vision.md` présent, pas `solution.md` : prochaine étape Phase 4.
 - `solution.md` présent, pas `prd.md` : prochaine étape Phase 5 (PRD).
 - `prd.md` présent : workflow bouclé ; proposer la Phase 6 (one-pager CSM / Sales) si
   pas encore produite.
